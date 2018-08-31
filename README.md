@@ -2,6 +2,8 @@
 
 基于Python Flask 的 Restful API
 
+> 详细文档 [Wiki](https://github.com/lantern-fish/documentation/wiki)
+
 ## 鉴权说明
 
 采用JWT, 推荐使用 [Flask-JWT](https://pythonhosted.org/Flask-JWT/#flask-jwt) 
@@ -58,6 +60,7 @@ Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6MSwiaWF0
     "error":"权限错误" //返回错误原因, 因为要显示在页面上, 所以规范写
 }
 ```
+
 
 
 
